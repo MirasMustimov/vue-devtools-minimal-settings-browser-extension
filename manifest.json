@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Vue DevTools Settings",
+  "version": "1.0.0",
+  "description": "Enforces preferred Vue DevTools settings on localhost on every page load.",
+  "content_scripts": [
+    {
+      "matches": ["http://localhost/*"],
+      "js": ["content.js"],
+      "run_at": "document_start"
+    }
+  ]
+}
