@@ -1,1 +1,1 @@
-Wrietten wnith claude code
+Written by claude code
